@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ag-eureka
+eureka:
+  client:
+    register-with-eureka: false #不作为客户端注册到注册中心
+    fetch-registry: false
+server:
+  port: 8761

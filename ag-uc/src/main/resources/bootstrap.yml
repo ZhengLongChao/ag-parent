@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: ag-config
+        enable: true
+      lable: master
+      name: uc
+      profile: dev
